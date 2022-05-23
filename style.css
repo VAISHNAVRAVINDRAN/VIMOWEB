@@ -1,0 +1,190 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    overflow:hidden;
+}
+.side-bar{
+    width:0px;
+    height:500px;
+    background:lavender;
+    border-radius:0 1rem 1rem 0;
+    display:flex;
+    align-items:center;
+    justify-content:top;
+    flex-direction:column;
+    overflow:hidden;
+    position:absolute;
+    top:100px;
+    left:0px;
+}
+.side-bar i{
+    width:50px;
+    height:50px;
+    background-color:gainsboro;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:40px;
+    border-radius:100%;
+    cursor: pointer;
+}
+.side-bar i:hover{
+    background-color:#202020;
+    color:lavender;
+}
+.left-arrow{
+    width:auto;
+    height:auto;
+    background-color:lavender;
+    padding:10px;
+    font-size:5em;
+    font-weight:bolder;
+    border-radius:0 2rem 2rem 0;
+    position:absolute;
+    top:323px;
+    left:0px;
+    cursor: pointer;
+}
+.left-arrow:hover{
+    background-color:#202020;
+    color:lavender;
+}
+.right-arrow{
+    width:auto;
+    height:auto;
+    background-color:lavender;
+    padding:10px;
+    font-size:5em;
+    font-weight:bolder;
+    border-radius:0 2rem 2rem 0;
+    position:absolute;
+    top:323px;
+    left:-45px;
+    cursor: pointer;
+}
+.right-arrow:hover{
+    background-color:#202020;
+    color:lavender;
+}
+.company-name::before{
+    content:"VIMO ";
+    font-weight:bolder;
+    color:orangered;
+    font-size:2em;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.company-name::after{
+    content:"WEB";
+    font-weight:bolder;
+    color:#202020;
+    font-size:2em;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.account-demo{
+    color:#333;
+    width:auto;
+    height:auto;
+    padding:0.5rem;
+    background-color:gainsboro;
+    border-radius:100%;
+    position:absolute;
+    left:1480px;
+    top:10px;
+    cursor: pointer;
+}
+.notifications{
+    color:#333;
+    width:auto;
+    height:auto;
+    padding:0.5rem;
+    background-color:gainsboro;
+    border-radius:100%;
+    position:absolute;
+    left:1430px;
+    top:10px;
+    cursor:pointer;
+}
+.notification-indicator{
+    width:15px;
+    height:15px;
+    background-color:dodgerblue;
+    border-radius:100%;
+    position:absolute;
+    left:1455px;
+    top:7px;
+}
+.notification-window{
+    width:400px;
+    height:100vh;
+    background-color:gainsboro;
+    position:absolute;
+    top:0px;
+    left:1535px;
+    overflow:scroll;
+    transition:1s;
+    z-index:1;
+}
+.noti-name{
+    font-size:1.5em;
+    font-weight:bolder;
+    color:#202020;
+    position:absolute;
+    top:10px;
+    left:15px;
+    width:135px;
+    border-bottom:3px dashed #333;
+}
+.notification-window::-webkit-scrollbar{
+    display:none;
+}
+.close_nwin{
+    width:auto;
+    height:auto;
+    padding:0.2rem;
+    background-color:red;
+    border-radius:100%;
+    color:whitesmoke;
+    position:absolute;
+    top:15px;
+    left:360px;
+    cursor: pointer;
+}
+.home-page{
+    width:1300px;
+    height:650px;
+    background-color:transparent;
+    position:absolute;
+    top:80px;
+    left:150px;
+}
+.mp-txt{
+    font-size:2em;
+    font-weight:bolder;
+    position:absolute;
+    top:10px;
+    left:20px;
+    border-left:5px solid orangered;
+    height:50px;
+    color:#202020;
+}
+.populars{
+    width:1250px;
+    height:550px;
+    background-color:transparent;
+    position:absolute;
+    top:80px;
+    left:20px;
+    display:inline;
+    overflow:scroll;
+}
+.pop-1{
+    width:1000px;
+    height:260px;
+    background-color:gainsboro;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:1rem;
+}
+.populars::-webkit-scrollbar{
+    display: none;
+}
